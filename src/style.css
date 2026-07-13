@@ -5,9 +5,9 @@ body{
     background-color: whitesmok;
     margin: auto;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-    gap: 50px;
-    width: 800px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    gap: 20px;
+    width: 1000px;
 }
 .resume-container{
     max-width: 800px;
@@ -20,21 +20,14 @@ header{
     padding: 20px;
     margin: 20px;
 }
-.profile-pic{
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-    border: 5px solid white;
-    width: 100px;
-    height: 100px;
-}
+
 h1{
     background-color: blue;
     margin: 1px;
     font-size: 2em;
     color: black;
 }
-.contact-info{
+.contact-information{
     color: aliceblue;
     font-size: 0.9em;
 }
@@ -44,7 +37,15 @@ h2{
     padding: 3px;
     margin-top: 30px;
 }
-section img{
+
+.project-img{
+    display: flex;
+    width: 1000px;
+    height:300px;
+    gap: 50px;
+}
+.image{
+    border-radius: 100%;
     width: 300px;
     height: 300px;
 }
