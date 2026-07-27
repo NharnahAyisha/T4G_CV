@@ -11,9 +11,11 @@ body{
 }
 .resume-container{
     max-width: 800px;
-    background-color: white;
+    background-color: lightblue;
     display: flex;
     gap: 20px;
+    padding: 50px;
+    margin: auto;
 }
 header{
     border-bottom: 2px solid black;
@@ -22,7 +24,7 @@ header{
 }
 
 h1{
-    background-color: blue;
+    /* background-color: blue; */
     margin: 1px;
     font-size: 2em;
     color: black;
